@@ -1,0 +1,63 @@
+@import url(./style.css);
+
+:root{
+    --primaryColor: #8e0000;
+    --color00: #ffffff;
+    --color01: #c7c7c7;
+    --color02: #474747;
+    --color03: #121212;
+
+    --primaryFont: 'Iceland', cursive;
+    --secundaryFont: 'Actor', sans-serif;
+    --tertiaryFont: 'Darker Grotesque', sans-serif;
+    --commentFont: 'Abhaya Libre', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #000000;
+}
+a{
+    color: var(--color00);
+}
+.font1-XL{
+    font-size: 5.75rem;
+    font-family: var(--primaryFont);
+}
+.font1-L{
+    font-size: 5rem;
+    font-family: var(--primaryFont);
+}
+.fon1t-M{
+    font-size: 1.5rem;
+    font-family: var(--primaryFont);
+}
+.fon1t-S{
+    font-size: 1.25rem;
+    font-family: var(--primaryFont);
+}
+.font2-M{
+    font-size: 1.5rem;
+    font-family: var(--secundaryFont);
+}
+.font2-S{
+    font-size: 1.25rem;
+    font-family: var(--secundaryFont);
+}
+.font3-S{
+    font-size: 1.25rem;
+    font-family: var(--tertiaryFont);
+}
+.font3-XS{
+    font-size: 1rem;
+    font-family: var(--tertiaryFont);
+}
+.comment{
+    font-size: 1.5rem;
+    font-family: var(--commentFont);
+}
