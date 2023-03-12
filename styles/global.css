@@ -21,6 +21,7 @@
 }
 body{
     background-color: #000000;
+    color: var(--color00);
 }
 a{
     color: var(--color00);
@@ -28,22 +29,29 @@ a{
 .font1-XL{
     font-size: 5.75rem;
     font-family: var(--primaryFont);
+    text-transform: uppercase;
+    font-weight: 400;
 }
 .font1-L{
     font-size: 5rem;
     font-family: var(--primaryFont);
 }
-.fon1t-M{
+.font1-M{
     font-size: 1.5rem;
     font-family: var(--primaryFont);
+    text-transform: uppercase;
+    font-weight: 400;
 }
-.fon1t-S{
+.font1-S{
     font-size: 1.25rem;
     font-family: var(--primaryFont);
+    text-transform: uppercase;
+    font-weight: 400;
 }
 .font2-M{
     font-size: 1.5rem;
     font-family: var(--secundaryFont);
+    color: var(--color01);
 }
 .font2-S{
     font-size: 1.25rem;
@@ -60,4 +68,13 @@ a{
 .comment{
     font-size: 1.5rem;
     font-family: var(--commentFont);
+}
+
+@media (max-width: 780px){
+    .font1-XL{
+        font-size: 5.5rem;
+    }
+    .font2-M{
+        font-size: 1.25rem;
+    }
 }
