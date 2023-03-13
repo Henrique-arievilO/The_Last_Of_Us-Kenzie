@@ -2,13 +2,14 @@
 
 :root{
     --primaryColor: #8e0000;
+    --secondaryColor: #5b0000;
     --color00: #ffffff;
     --color01: #c7c7c7;
     --color02: #474747;
     --color03: #121212;
 
     --primaryFont: 'Iceland', cursive;
-    --secundaryFont: 'Actor', sans-serif;
+    --secondaryFont: 'Actor', sans-serif;
     --tertiaryFont: 'Darker Grotesque', sans-serif;
     --commentFont: 'Abhaya Libre', serif;
 }
@@ -35,6 +36,7 @@ a{
 .font1-L{
     font-size: 5rem;
     font-family: var(--primaryFont);
+    text-transform: uppercase;
 }
 .font1-M{
     font-size: 1.5rem;
@@ -50,12 +52,12 @@ a{
 }
 .font2-M{
     font-size: 1.5rem;
-    font-family: var(--secundaryFont);
+    font-family: var(--secondaryFont);
     color: var(--color01);
 }
 .font2-S{
     font-size: 1.25rem;
-    font-family: var(--secundaryFont);
+    font-family: var(--secondaryFont);
 }
 .font3-S{
     font-size: 1.25rem;
@@ -77,4 +79,6 @@ a{
     .font2-M{
         font-size: 1.25rem;
     }
+    .font1-L{
+        font-size: 3rem;
 }
