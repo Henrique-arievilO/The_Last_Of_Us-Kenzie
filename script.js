@@ -69,7 +69,7 @@ function renderCard (episodes) {
   listItem.innerHTML = `
     <img src=${episodes.img} alt=${episodes.title}>
     <div class="cardText">
-        <h4 class="font3-XS">${episodes.title}</h4>,
+        <h4 class="font3-XS">${episodes.title}</h4>
         <p class="font3-XS">${episodes.description}</p>
     </div>
     `
